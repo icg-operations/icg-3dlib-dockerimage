@@ -37,5 +37,5 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     unzip \
     wget \
   && apt-get clean \
-  && rm -rf /var/lib/apt/lists/*
+  && rm -rf /var/lib/apt/lists/* \
   && gem install --no-rdoc --no-ri fpm
